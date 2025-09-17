@@ -5,7 +5,7 @@ public class Main
         Feeder f = new Feeder(500);
         System.out.println(f);
         System.out.println(f.getCurrentFood());
-       f.simulateOneDay(12);
+       f.simulateOneDay(22);
        System.out.println(f.getCurrentFood());
     }
 }
